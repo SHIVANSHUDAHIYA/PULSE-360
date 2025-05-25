@@ -1,90 +1,62 @@
-# PULSE Agent
+# 🩺 PULSE 360 – AI-Driven Health Pre-Screening & Consultation Platform
 
-A modern web application built with a Python backend and React frontend, designed to provide intelligent agent-based services.
+![Demo GIF](media/demo.gif)
 
-## 🚀 Features
+**PULSE 360** is a two-part web-based healthcare platform that bridges the gap between early symptom analysis and real doctor consultations. Designed with empathy for **elderly and hesitant users**, it empowers patients to make informed health decisions while reducing unnecessary hospital visits.
 
-- Modern, responsive user interface
-- Secure API integration
-- Real-time data processing
-- Scalable architecture
+---
 
-## 🛠️ Tech Stack
+## 💡 Why PULSE 360?
 
-### Frontend
-- React.js
-- Modern UI components
-- Responsive design
+### 🚨 Common Healthcare Challenges
+- Elderly patients struggle with reading and typing on screens.
+- Many people hesitate to ask “basic” questions to doctors, fearing judgment.
+- Lifestyle-related issues often don’t require a doctor but go untreated.
+- Hospitals face long queues and delays due to poor pre-screening.
+- Most AI symptom checkers lack voice support or appointment integration.
 
-### Backend
-- Python
-- RESTful API architecture
-- Secure authentication
+---
 
-## 📋 Prerequisites
+## 🌟 What Makes PULSE 360 Different?
 
-- Python 3.8 or higher
-- Node.js 14.0 or higher
-- npm or yarn package manager
+### 🤖 **AI Assistant for Symptom Check**
+- Interact via **chat** or request a **call from a voice-based AI agent**.
+- AI is trained on **medical datasets** for early condition prediction.
+- Get suggestions on **diet, exercise plans**, and disease explanations.
+- Designed for **non-tech-savvy users** — click-friendly pill buttons generate full questions.
 
-## 🔧 Installation
+### 📞 **Voice Support for Elderly**
+- Voice-based AI call service for users who prefer speaking over typing.
+- Elderly-friendly interface that minimizes cognitive and physical effort.
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/PULSE-Agent.git
-cd PULSE-Agent
-```
+### 🧑‍⚕️ **Doctor Appointment System**
+- Book doctors by **specialization** after AI consultation.
+- Check **real-time availability** and book **specific time slots**.
+- Complete payment via **Razorpay**.
+- Smooth transition from AI help to human consultation.
 
-2. Backend Setup
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
+### 🛠️ **Doctor Admin Panel**
+- Admins manage doctor profiles, schedules, and appointments.
+- Real-time dashboard showing upcoming bookings and availability.
 
-3. Frontend Setup
-```bash
-cd frontend
-npm install
-```
+---
 
-## 🚀 Running the Application
+## 🧱 Tech Stack
 
-1. Start the Backend Server
-```bash
-cd backend
-python app.py
-```
+| Layer        | Technology                                     |
+|--------------|------------------------------------------------|
+| **Frontend** | React.js, Tailwind CSS                         |
+| **Backend**  | Node.js, Express                               |
+| **Database** | MongoDB (Mongoose)                             |
+| **AI Layer** | OpenAI API (Chat + Voice Agent)                |
+| **Media**    | Cloudinary (Doctor Images)                     |
+| **Payments** | Razorpay                                       |
 
-2. Start the Frontend Development Server
-```bash
-cd frontend
-npm start
-```
+---
 
-## 🔐 Environment Variables
+## 🚀 Getting Started
 
-Create a `.env` file in the backend directory with the following variables:
-```
-API_KEY=your_api_key
-DATABASE_URL=your_database_url
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📧 Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
-
-Project Link: [https://github.com/your-username/PULSE-Agent](https://github.com/your-username/PULSE-Agent) 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/SHIVANSHUDAHIYA/PULSE-360.git
+   cd PULSE-360
